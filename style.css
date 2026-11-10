@@ -1,0 +1,31 @@
+body {background-color:black;
+color:white;}
+h1 {color:red; text-align:center;}
+section img {width: 50%; height: auto; border-radius: 10px;}
+section #contato {max-width: 500px; margin: 0 auto; text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 20px; color: white; background-color: black; padding: 20px; border-radius: 10px;}
+section #contato fieldset {border: 2px solid whitesmoke; padding: 10px; border-radius: 10px;}
+.tecnologias-e-interesses {font-family: sans-serif;padding: 20px;}
+.tecnologias {display: flex;flex-wrap: wrap;gap: 12px;}
+.tecnologia {display: flex;align-items: center;gap: 8px;background-color: #1a1a1a;color: #ffffff;padding: 10px 18px;border-radius: 25px;font-weight: bold;font-size: 15px;border: 1px solid #333;transition: transform 0.2s, border-color 0.2s;}
+.tecnologia i {font-size: 20px;}
+.fa-html5 {    color: red;}
+.fa-css3-alt {color: blue;}}
+.fa-playstation {color: blue;}
+.fa-python {color: orange;}
+body {display: grid;grid-template-rows: auto 1fr auto;min-height: 100vh;margin: 0;font-family: Arial, sans-serif;}
+nav ul {display: grid;grid-auto-flow: column;justify-content: start;gap: 20px;list-style: none;padding: 15px 20px;margin: 0;background-color: whitesmoke;}
+footer {display: grid;justify-items: center;gap: 10px;padding: 20px;background-color: #222;color: whitesmoke;text-align: center;}
+footer ul {display: grid;list-style: none;padding: 0;margin: 0;}
+footer a {color: cyan; text-decoration:solid}
+.tecnologia:hover {transform: translateY(-2px);border-color: gray;}
+#contato input[type="text"],
+#contato input[type="email"],
+#contato textarea {width: 100%;padding: 12px;margin-bottom: 15px;border: 1px solid whitesmoke;border-radius: 6px;box-sizing: border-box;font-size: 16px;transition: border-color 0.3s ease;}
+ #contato button {padding: 10px 20px;border: none;border-radius: 6px;font-size: 16px;cursor: pointer;margin-right: 10px;}
+#contato button[type="submit"] {color: green;}
+#contato button[type="reset"] {background-color: whitesmoke;color: red;}
+nav ul {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #333;}
+nav li {float: left;}
+nav li a {display: block;color: white;text-align: center;padding: 14px 16px;text-decoration: none;}
+nav li a:hover {background-color: #111;}
+footer a:hover {color: #ffffff;text-decoration: underline;}
