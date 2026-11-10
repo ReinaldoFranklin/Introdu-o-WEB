@@ -1,8 +1,8 @@
 <HTML>
-<head> 
+<head>
+  <link rel="stylesheet" href="style.css">    
 <title> Página Pessoal Simples </title>
  </head>
-
 <body>
 <header>
 <h1> <b> Minha Página Pessoal, espaço para compartilhar </b> </h1>
@@ -10,8 +10,17 @@
 <Section>
 <h2> Quem sou eu </h2>
 <p> Sou Reinaldo Franklin, tenho 31 anos, trabalho com hotelaria há 13 anos, atualmente sou gerente de hospedagem! </p>
-<p> <img src="./imagens/minhafoto.jpeg" alt="Selfie do Reinaldo"> </p> 
+<p> <img src="Imagens\MinhaImagem.jpeg" alt="Selfie do Reinaldo"> </p> 
 <p> <a href="about.html">saiba mais sobre mim</a> </p>
+</section>
+<section class="tecnologias-e-interesses">
+<h2> Tecnologias e Interesses </h2>
+<div class="tecnologias">
+  <div class="tecnologia">HTML</div>
+  <div class="tecnologia">CSS</div>
+  <div class="tecnologia">PlayStation</div>
+  <div class="tecnologia">Python</div>
+</div>
 </section>
 <main>
 <section>
@@ -21,6 +30,24 @@
 <li> sou fluente em inglês e amo estudar idiomas </li>
 <li> Amo jogar videogames e tenho 30 platinas na playstation </li>
 </ul>
+<section id="contato">
+  <h2> Contato </h2>
+  <form action="contato" method="get">
+    <fieldset>
+      <legend>Formulário de Contato</legend>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    </fieldset>
+    <fieldset>
+    <label for="mensagem">Mensagem:</label><br>
+    <textarea id="mensagem" name="mensagem" required></textarea><br><br>
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button> 
+    </fieldset>
+  </form>
+
 </section>
 </main>
 <nav>
@@ -37,5 +64,6 @@ Sou Reinaldo Franklin e para mais informações, favor entrar em contato em:
 </footer>
 </body>
 </html>
+
 
  
